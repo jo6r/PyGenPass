@@ -91,7 +91,7 @@ class MainWindow(QWidget):
         if pg.character_set:
             text = pg.gen_pwd(int(self.combo.currentText()))
         else:
-            text = "select character set"
+            text = "please enable character source >>"
 
         self.output_line.setText(text)
 
